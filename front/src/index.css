@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.search-input:focus {
+  outline: none;
+}
+.filter > li {
+  padding: 5px 5px;
+}
+.cart-image {
+  width: 280px;
+  height: 200px;
+  background-size: cover;
+}
+.product-card:hover {
+  transform: scale(1.2);
+}
+.footer-list {
+  color: rgb(131, 103, 103);
+}
+.footer-list > li:hover {
+  color: white;
+  cursor: pointer;
+}
+.footer-headerline {
+  border-bottom: 5px solid red;
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    font-size: 27px;
+  }
+
+  .top-content-image {
+    padding-top: 170px;
+  }
+
+  .homepage-top-content {
+    margin-top: 75px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+  }
+
+  .homepage-top-image-details {
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-size: 20px;
+    color: white;
+  }
+
+  .home-search {
+    margin-top: 35%;
+  }
+  .product-search {
+    margin-top: 20%;
+  }
+
+  #product-card {
+    width: 250px;
+    height: 300px;
+  }
+
+  .products-menu-card {
+    width: 200px;
+  }
+
+  .leftsidebar-container {
+    display: none;
+  }
+
+  #searchResults {
+    padding-top: 158px;
+  }
+
+  #orderStatustable {
+    padding-top: 158px;
+  }
+  .form-body {
+    width: 350px;
+    padding: 15px;
+  }
+  .content-row {
+    margin: 15px 5px;
+  }
+  .content-image {
+    height: 350px;
+  }
+  .content-title {
+    font-size: 22px;
+  }
+
+  #menuButton {
+    padding-top: 10px;
+  }
+
+  .top-right {
+    padding-top: 10px;
+  }
+  .leftsidebar-container {
+    display: none;
+  }
+  .top-column {
+    padding: 5px 0;
+  }
+  .carousel1 {
+    padding-top: 100px;
+  }
+  .item-image {
+    height: 300px;
+  }
+  .top-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cart-left-sidebar {
+    display: none;
+  }
+  .total-amount-card {
+    width: 100%;
+  }
+  .order-cards {
+    margin-bottom: 10px;
+    margin-top: 92px;
+  }
+  .cart-image {
+    width: 100%;
+  }
+  .about {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #logo {
+    font-size: 20px;
+  }
+  .homepage-top-content {
+    margin-top: 75px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+  }
+  .homepage-top-image-details {
+    z-index: 1;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    font-size: 35px;
+    color: white;
+  }
+
+  .home-search {
+    margin-top: 6%;
+  }
+
+  .form-body {
+    width: 350px;
+    padding: 15px;
+  }
+  #navbar-menu {
+    padding-top: 70px;
+  }
+
+  #searchResults {
+    padding-top: 20px;
+  }
+  #cart-page {
+    padding-top: 80px;
+  }
+  #orderStatustable {
+    padding-top: 80px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #cart-image {
+    width: 350px;
+    height: 250px;
+  }
+  .content-image {
+    width: 70%;
+    height: 650px;
+  }
+  .item-image {
+    width: 60rem;
+    height: 380px;
+  }
+  #menuButton {
+    display: none;
+  }
+  .leftsidebar-container {
+    width: 270px;
+  }
+  .top-column {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .order-cards {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
